@@ -125,12 +125,9 @@ This will reveal the registrar, registration and expiry dates and the name serve
 
 The whatweb command exposes the exact softwareand versions (here word press 7.1.4 and apache were used)
 ```
-![kali%20network.png]()
-A shared folder was also configured for transferring required files between the host operating system and the Kali VM.
+![]()
 
 
-
----
 
 ## Step 5. Configure the Kali Linux Network
 
