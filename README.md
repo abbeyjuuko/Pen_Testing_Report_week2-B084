@@ -140,19 +140,18 @@ The Nslookup command turns a domain name into its real ip (192.232.216.135). Kno
 
 ## Screenshot of the ns lookup command
 
+![](<img width="715" height="237" alt="image" src="https://github.com/user-attachments/assets/f7ee6c03-a0a7-4eb5-86ed-154b0a8378b2" />
+)
+
+
+
+## Step 6. Type in the Curl -I command
+
+An attacker can use this in that the http headers leak the web server, caching stack and hidden end points
+
+## Screenshot of the curl -I command
+
 ![]()
-
-
-
-
-
----
-
-## Step 6. Clean VM Snapshot
-
-After completing the initial configuration, MY KALI snapshot was taken
-
-![](MY%20KALI%20SCREEN.png)
 
 ## Step 7 MY Windows 11 Setup
 
