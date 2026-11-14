@@ -169,16 +169,19 @@ This specific command tells an attacker if the firewall is watching. Here the si
 
 ## Screenhot of dns recon.
 
+![](<img width="662" height="452" alt="image" src="https://github.com/user-attachments/assets/6be69bc6-7910-4260-9303-f683c2de81f9" />
+)
+
+
+## Step 9. Open zenmap in windows
+
+zenmap shows all live hosts on the network and topology
+
+
+ ## Screenshot of zenmap.
+
+
 ![]()
-
-
-## Step 9.Setting up my Configured Android VM in virtual Box
-
-
- ## Screenshot of my Android VM.
-
-
-![](setting%20up%20android%20vm.png)
 
 ## Step10. Setting up Network of the Android VM in the Virtual Box
 
