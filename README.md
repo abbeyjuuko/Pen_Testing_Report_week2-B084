@@ -160,13 +160,16 @@ This specific command tells an attacker if the firewall is watching. Here the si
 
 ## Screenshot of watw00f command
 
+![](<img width="660" height="447" alt="image" src="https://github.com/user-attachments/assets/a56aa972-933d-4eeb-8820-138f5fcc7a76" />
+)
+
+## Step 8. Type the dns recon command in the terminal
+
+ The dns recon maps the target's entire DNS footprint: mail servers, DNS software version(Bind 9.16.23), SPF policyand cPanel sevice records
+
+## Screenhot of dns recon.
+
 ![]()
-
-## Step 8. Win 11 Netwok setup in winthin the virtual box
-
-## Screenhot of network setup of win 11
-
-![](my%20win%2011%20network%20seup.png)
 
 
 ## Step 9.Setting up my Configured Android VM in virtual Box
