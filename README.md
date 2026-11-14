@@ -111,32 +111,19 @@ Additional target machines can be added to the same virtual network in future pr
 
 ## Step 3. type whois in the terminal:;
 
-![](.png)
+![](<img width="752" height="631" alt="image" src="https://github.com/user-attachments/assets/07ac44fc-8d63-4865-9f16-6c87b1710ed5" />
+png)
 
-A **NAT Network** was selected because multiple virtual machines connected to the same NAT Network can communicate with one another while also having outbound network connectivity.
+A **whois command**
 
-This will allow future attacker and target VMs to communicate within the lab.
+This will reveal the registrar, registration and expiry dates and the name servers within the labthe lab.
 
 
 ---
 
-## Step 4. Import Kali Linux
+## Step 4. whatweb command
 
-The Kali Linux virtual machine was downloaded from the official Kali Linux website and imported into VirtualBox.
-
-The VM network adapter was configured as follows:
-
-```text
-Adapter 1
-Attached to: NAT Network
-Network:     NatNetwork
-Adapter Type: Intel PRO/1000 MT Desktop (82540 EM)
-```
-
-The VM was allocated:
-
-```text
-RAM: 6050 MB
+The whatweb command exposes the exact softwareand versions (here word press 7.1.4 and apache were used)
 ```
 ![kali%20network.png]()
 A shared folder was also configured for transferring required files between the host operating system and the Kali VM.
