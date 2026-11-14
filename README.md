@@ -118,7 +118,7 @@ A **whois command**
 
 This will reveal the registrar, registration and expiry dates and the name servers within the labthe lab.
 
-
+![]
 ---
 
 ## Step 4. whatweb command
