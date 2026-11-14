@@ -111,6 +111,8 @@ Additional target machines can be added to the same virtual network in future pr
 
 ## Step 3. type whois in the terminal:;
 
+## Screenshot of the whois command
+
 ![](<img width="752" height="631" alt="image" src="https://github.com/user-attachments/assets/07ac44fc-8d63-4865-9f16-6c87b1710ed5" />
 png)
 
@@ -118,36 +120,27 @@ A **whois command**
 
 This will reveal the registrar, registration and expiry dates and the name servers within the labthe lab.
 
-![]
----
+
 
 ## Step 4. whatweb command
 
+## Screenshot of the whatweb command
+
 The whatweb command exposes the exact softwareand versions (here word press 7.1.4 and apache were used)
 
-![](
+![](<img width="675" height="512" alt="image" src="https://github.com/user-attachments/assets/0afe0f4d-09a7-43e2-b27d-a83a9ef13de0" />
 
 
 
 
-## Step 5. Configure the Kali Linux Network
 
-The Kali Linux network configuration was checked and configured with a consistent IPv4 address.
+## Step 5. Type the nslookup command in the terminal
 
-Example configuration:
+The Nslookup command turns a domain name into its real ip (192.232.216.135). Knowing an ip lets the attacker scan the server directly, look up other sites on the same ip and maps the target infrastructure.
 
-```text
-IP Address: 10.0.0.2
-Subnet Mask: 255.255.255.0
-Gateway: 10.0.0.1
-DNS: 8.8.8.8
-```
+## Screenshot of the ns lookup command
 
-A consistent IP address makes it easier to document the lab and reference the Kali machine in future exercises.
-
-## Screenshot of Successful Network connection in Kali
-
-![](succes%20connection.png)
+![]()
 
 
 
