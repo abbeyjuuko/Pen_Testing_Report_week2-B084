@@ -124,7 +124,8 @@ This will reveal the registrar, registration and expiry dates and the name serve
 ## Step 4. whatweb command
 
 The whatweb command exposes the exact softwareand versions (here word press 7.1.4 and apache were used)
-```
+
+![](
 
 
 
