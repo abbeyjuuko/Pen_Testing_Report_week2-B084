@@ -151,15 +151,16 @@ An attacker can use this in that the http headers leak the web server, caching s
 
 ## Screenshot of the curl -I command
 
+![](<img width="700" height="387" alt="image" src="https://github.com/user-attachments/assets/bcf2602a-4cf9-46db-bdef-3f1d32b27187" />
+)
+
+## Step 7 Open terminal and type in the watw00f command
+
+This specific command tells an attacker if the firewall is watching. Here the site sits behind the MOD security. Niave attempts will be blocked so the attacker must use alternative means to bypass the firewall.
+
+## Screenshot of watw00f command
+
 ![]()
-
-## Step 7 MY Windows 11 Setup
-
-I downloaded my win 11 and configured it into the virtual box.
-
-## Screenshot of win 11
-
-![](my%20win%2011.png)
 
 ## Step 8. Win 11 Netwok setup in winthin the virtual box
 
