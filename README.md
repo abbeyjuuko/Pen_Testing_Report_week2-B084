@@ -111,7 +111,7 @@ Additional target machines can be added to the same virtual network in future pr
 
 ## Step 3. type whois in the terminal:;
 
-![](2-screenshot-network-settings-1.png)
+![](.png)
 
 A **NAT Network** was selected because multiple virtual machines connected to the same NAT Network can communicate with one another while also having outbound network connectivity.
 
