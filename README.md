@@ -139,9 +139,8 @@ The whatweb command exposes the exact softwareand versions (here word press 7.1.
 The Nslookup command turns a domain name into its real ip (192.232.216.135). Knowing an ip lets the attacker scan the server directly, look up other sites on the same ip and maps the target infrastructure.
 
 ## Screenshot of the ns lookup command
-
 ![](<img width="715" height="237" alt="image" src="https://github.com/user-attachments/assets/f7ee6c03-a0a7-4eb5-86ed-154b0a8378b2" />
-)
+
 
 
 
@@ -152,7 +151,7 @@ An attacker can use this in that the http headers leak the web server, caching s
 ## Screenshot of the curl -I command
 
 ![](<img width="700" height="387" alt="image" src="https://github.com/user-attachments/assets/bcf2602a-4cf9-46db-bdef-3f1d32b27187" />
-)
+
 
 ## Step 7 Open terminal and type in the watw00f command
 
@@ -161,7 +160,7 @@ This specific command tells an attacker if the firewall is watching. Here the si
 ## Screenshot of watw00f command
 
 ![](<img width="660" height="447" alt="image" src="https://github.com/user-attachments/assets/a56aa972-933d-4eeb-8820-138f5fcc7a76" />
-)
+
 
 ## Step 8. Type the dns recon command in the terminal
 
@@ -170,7 +169,7 @@ This specific command tells an attacker if the firewall is watching. Here the si
 ## Screenhot of dns recon.
 
 ![](<img width="662" height="452" alt="image" src="https://github.com/user-attachments/assets/6be69bc6-7910-4260-9303-f683c2de81f9" />
-)
+
 
 
 ## Step 9. Open zenmap in windows
@@ -181,13 +180,10 @@ zenmap shows all live hosts on the network and topology
  ## Screenshot of zenmap.
 
 
-![]()
+![](<img width="1697" height="330" alt="image" src="https://github.com/user-attachments/assets/01147409-a006-4885-8172-efc09ca00a95" />
 
-## Step10. Setting up Network of the Android VM in the Virtual Box
 
-## Screenshot of setting up th Network.
 
-![](setting%20up%20android.png)
 
 
  
@@ -197,37 +193,12 @@ zenmap shows all live hosts on the network and topology
 
 ---
 
-# 🔎 Lab Verification
-
-| ✅ Test                        | 🧾 Command                      | 🎯 Expected Result              |
-| ----------------------------- | ------------------------------- | ------------------------------- |
-| 🌐 Check IP address           | `ip a`                          | Correct Kali IP displayed       |
-| 📡 Test gateway               | `ping 10.0.0.1`                 | Successful replies              |
-| 🌍 Test Internet connectivity | `ping 8.8.8.8`                  | Successful replies              |
-| 🔎 Test DNS resolution        | `nslookup networkwalks.com`     | Domain resolves                 |
-| 🧰 Verify Nmap                | `nmap --version`                | Nmap version displayed          |
-| 🔄 Verify snapshot            | Restore snapshot and run `ip a` | Baseline configuration restored |
-
-### Results
-
-
-IP Address:
-10.0.0.2/24
-
-Gateway:
-10.0.0.1
-
-DNS:
-8.8.8.8
-```
-
----
 
 # 🐞 Problems Encountered & Solutions
 
 Documenting problems is an important part of the project.
 
-## Problem 1. Internet Connectivity After Static IP Configuration
+## Problem 1. Internet Connectivity within the Vm
 
 After manually configuring the IPv4 settings, Internet connectivity may fail depending on the Kali/NetworkManager configuration.
 
@@ -258,32 +229,19 @@ The issue was resolved by:
 
 After enabling virtualization, the VM started successfully.
 
-## Problem 3. Android VM setup
 
-The VM failed to install beacause of hardware virtualization and little base memory and limited cores.
-
-The issue was resolved by:
-
-1. Restarting the computer.
-2. Maximizing the base memory to atleast 8060mb.
-3. Increasing the processor cores to 6cores.
 
 
 ---
 
 # 💡 What I Learned
 
-Through this project, I learned how to create and configure a virtual environment for cybersecurity practice.
+Through this project, I learned how to USE commands and carry out footprinting in  a virtual environment for cybersecurity practice.
 
 The most important concepts I learned include:
 
-### 1. NAT vs NAT Network
-
-A standard NAT configuration and a NAT Network serve different purposes.
-
-A NAT Network allows multiple VMs connected to the same virtual network to communicate with one another while providing network address translation for external connectivity.
-
-This makes it useful for building a multi-machine cybersecurity laboratory.
+### 1. the whois command vs the whatweb command
+ whereas both are footprinting commands, whois collects registrar, registration details while whatweb exposes the exact software and software versions.
 
 ### 2. Virtual Machine Networking
 
@@ -309,11 +267,11 @@ I learned that documenting commands, configuration, screenshots, problems, and s
 
 # 🔗 Tools & Resources
 
-- **7-Zip:** [https://7-zip.org/download.html](https://7-zip.org/download.html)
+
 - **VirtualBox:** [https://virtualbox.org/wiki/Downloads](https://virtualbox.org/wiki/Downloads)
 - **Kali Linux:** [https://kali.org/get-kali](https://kali.org/get-kali)
-- **Win 11:** [https://www.microsoft.com/en-us/software-download/windows11]
-- **Android X64:** [https://www.android-x86.org/download.html]
+- **Zenmap:** [https:https://nmap.org/zenmap/]
+  
 
 ---
 
@@ -328,4 +286,4 @@ LinkedIn: [www.linkedin.com/in/juuko-abbey-serwanga-4a72b6315)
 
 ## Project Information
 
-**Program Name:** Cybersecurity at Networkwalks | **Week:** 01 | **Project:** Cybersecurity & Pentesting Lab Setup | **Repository:** GitHub
+**Program Name:** Cybersecurity at Networkwalks | **Week:** 02 | **Project:** Cybersecurity & Pentesting Lab Setup | **Repository:** GitHub
